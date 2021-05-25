@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: #1c2335;
+  padding: 0 4em;
+}
+
+main {
+  max-width: 700px;
+  min-width: 400px;
+  margin: 0 auto;
+  padding: 1em;
+  height: 100%;
+  background-color: white;
+}
+
+main #section2 {
+  display: none;
+}
+
+main #section2 .dashed-location {
+  display: block;
+  background-color: #F1F5FF;
+  padding: 0.5em;
+}
+
+main #section2 .dashed-location .dashline {
+  border-radius: 15px;
+  border: dashed 1px #8f8f8f;
+  color: #303030;
+  padding: 0.5em 0 0.5em 0;
+  text-align: center;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 17px;
+  line-height: 35px;
+}
+
+main #section2 .dashed-location .undashed {
+  border: solid 1px #C4C4C4;
+}
+
+main #section2 .errorlog {
+  padding-top: 1em;
+  font-weight: 400;
+  color: red;
+}
+
+main #section2 #exclusions {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+main #section1 textarea {
+  display: block;
+  height: 100px;
+  margin-bottom: 1em;
+  padding: 1em;
+  width: 100%;
+  color: #131313;
+  resize: none;
+  border: none;
+  border-radius: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 4px 24px;
+}
+
+main #section1 textarea:focus {
+  outline: none;
+}
+
+main #section3 {
+  display: none;
+}
+
+main #section3 .icon-wrap{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 30px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: rgb(170, 218, 202);
+}
+
+main #section3 .icon-wrap svg{
+  height: 150px;
+  width: 150px;
+  color: rgb(53, 53, 53);
+}
+
+
+h1 {
+  font-weight: 500;
+  padding-bottom: 0.25em;
+  color: #222222;
+}
+
+p {
+  font-weight: 400;
+  color: #222222;
+}
+
+.pill {
+  display: inline-block;
+  background-color: #00c389;
+  color: white;
+  padding: 0.25em 0.5em;
+  border-radius: 8px;
+  margin-bottom: 0.5em;
+}
+
+/*# sourceMappingURL=style.css.map */
